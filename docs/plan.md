@@ -56,3 +56,8 @@ Part of the frozen v1 scope.
 - Report must state: what was tested and why, what improved, what got worse,
   where the system failed, and what would change in production.
 - Keep docs/decisions.md and a results log from day one so the report writes itself.
+
+## Source documents
+- EU AI Act: Regulation (EU) 2024/1689, consolidated 27.07.2026.
+- GDPR: Regulation (EU) 2016/679, consolidated 04.05.2016.
+See docs/decisions.md (2026-11-23) for exact URLs and format notes.
