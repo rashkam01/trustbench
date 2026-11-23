@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "trustbench"
+version = "0.1.0"
+description = "Evaluation toolkit comparing conventional RAG vs. agentic systems on EU regulatory text"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=2.48.0",
+    "psycopg[binary]>=3.2.13",
+    "pydantic>=2.13.5",
+    "pydantic-settings>=2.11.0",
+    "tiktoken>=0.14.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+    "ruff>=0.17.6",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/trustbench"]
