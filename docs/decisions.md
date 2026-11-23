@@ -7,7 +7,7 @@ XML wasn't offered and HTML was used instead — that satisfies the "document wh
 
 - EU AI Act: Regulation (EU) 2024/1689, amended by Regulation (EU) 2026/1744.
   Consolidated version 27.07.2026 (001.001).
-  https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02024R1689-20260727
+  https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727
   Only HTML/PDF offered on EUR-Lex (no XML) — using HTML as source format.
   Note: EUR-Lex text is a documentation tool with no legal effect; the authentic
   text is the Official Journal. Acceptable here since the regulations are test
