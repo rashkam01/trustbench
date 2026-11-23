@@ -2,5 +2,8 @@
 .env
 __pycache__/
 data/raw/*
+data/raw/*
+!data/raw/*.txt
+!data/raw/*.json
 data/eval/results/*
 .vscode/
