@@ -1,0 +1,10 @@
+{"id": "Q01", "question": "What are the main objectives of the EU AI Act?", "answerable": true, "expected_article": "Article 1"}
+{"id": "Q02", "question": "What types of AI-related activities and entities fall within the scope of the Regulation?", "answerable": true, "expected_article": "Article 2"}
+{"id": "Q03", "question": "Does the Regulation apply to providers established outside the EU if their AI system's output is used within the EU?", "answerable": true, "expected_article": "Article 2"}
+{"id": "Q04", "question": "How does the Regulation define an AI system?", "answerable": true, "expected_article": "Article 3"}
+{"id": "Q05", "question": "What is the difference between a provider and a deployer under the Regulation?", "answerable": true, "expected_article": "Article 3"}
+{"id": "Q06", "question": "What measures must providers and deployers take to support AI literacy?", "answerable": true, "expected_article": "Article 4"}
+{"id": "Q07", "question": "What conditions must be met for processing special categories of personal data for bias detection and correction?", "answerable": true, "expected_article": "Article 4a"}
+{"id": "Q08", "question": "Which AI practices are prohibited under Article 5?", "answerable": true, "expected_article": "Article 5"}
+{"id": "Q09", "question": "What criteria determine whether an AI system is classified as high-risk under the Regulation?", "answerable": false, "expected_article": null}
+{"id": "Q10", "question": "What specific requirements must providers fulfil when establishing a risk management system for high-risk AI systems?", "answerable": false, "expected_article": null}

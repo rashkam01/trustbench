@@ -2,6 +2,13 @@ import psycopg
 from psycopg.types.json import Jsonb
 from trustbench.config import settings
 from trustbench.ingest.chunker import Chunk
+from pgvector.psycopg import register_vector
+
+
+def get_connection() -> psycopg.Connection:
+    conn = psycopg.connect(settings.database_url)
+    register_vector(conn)
+    return conn
 
 SCHEMA = """
 CREATE EXTENSION IF NOT EXISTS vector;

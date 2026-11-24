@@ -2,7 +2,7 @@ import re
 from dataclasses import dataclass
 from typing import Protocol
 
-ARTICLE_HEADER = re.compile(r"(?m)^Article (\d+)\s*\n+([^\n]+)\n+")
+ARTICLE_HEADER = re.compile(r"(?m)^Article (\d+[a-z]?)\s*\n+([^\n]+)\n+")
 
 
 @dataclass
